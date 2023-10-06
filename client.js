@@ -97,7 +97,7 @@ if (!m.key.fromMe) return;
 }
 
 if (m.message) {
-//conn.readMessages([m.key]);
+conn.readMessages([m.key]);// Auto Read
 
 
 console.log(
